@@ -1,0 +1,28 @@
+{
+  "name": "web-developer-setting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch & webpack",
+    "deploy": "webpack -p"
+  },
+  "keywords": [],
+  "author": "Martin Jinda",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "browser-sync": "^2.12.3",
+    "copy-webpack-plugin": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.3",
+    "gulp-sass": "^2.2.0",
+    "html-webpack-plugin": "^2.17.0",
+    "jquery": "^2.2.1",
+    "jquery-validation": "^1.15.0",
+    "svg4everybody": "^2.0.3",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.13.0"
+  }
+}
