@@ -1,0 +1,27 @@
+body,
+html {
+  background-color: red;
+  height: 100%;
+  min-height: 100%;
+}
+
+// Set table for layout for 100% height sidebar
+.content-wrapper {
+  display: table;
+  height: calc(100% - 60px); // Have to deduct header-bar's height
+  width: 100%;
+
+  .row {
+    display: table-row;
+    height: 100%;
+
+    .sidebar {
+      display: table-cell;
+      height: 100%;
+    }
+
+    .content {
+      display: table-cell;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+// Variables
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Global
+$path-to-image: '../img' !default;
+$path-to-fonts: '../fonts' !default;
+
+// Color
+$white: #fff !default;
+$black: #000 !default;
+
+// Dropdown menu
+$link-color: #404040;
+$link-hover-bg: #e5e5e5;
+$separator-color: rgba(210, 210, 210, .98) !default;
+
+// Sidebar
+$sidebar-bg: #fcfcfc !default;
+
+$purple-header-light: #d2c3f0 !default; // svg
+$purple-header-light-2: #aea1c7 !default; // separator
+$purple-header: #563e80 !default;
+$purple-font: #5e3d95 !default;
+$purple-headline: darken($purple-font, 10%) !default;
+
+$green-font: #5eab1f !default;
+
+$breadcrumbs-font: #878787 !default;
+$breadcrumbs-font-size: 85% !default;
+
+// Breakpoints
+$bp-larger-than-mobile: 'min-width: 400px' !default;
+$bp-larger-than-phablet: 'min-width: 550px' !default;
+$bp-larger-than-tablet: 'min-width: 750px' !default;
+$bp-larger-than-desktop: 'min-width: 1000px' !default;
+$bp-larger-than-desktophd: 'min-width: 1200px' !default;
+
+$bp-smaller-than-mobile: 'max-width: 400px' !default;
+$bp-smaller-than-phablet: 'max-width: 550px' !default;
+$bp-smaller-than-tablet: 'max-width: 750px' !default;
+$bp-smaller-than-desktop: 'max-width: 1000px' !default;
+$bp-smaller-than-desktophd: 'max-width: 1200px' !default;
+
+// Bootstrap Breakpoints
+$screen-sm-min: 768px !default;
+$screen-md-min: 992px !default;
+$screen-lg-min: 1200px !default;

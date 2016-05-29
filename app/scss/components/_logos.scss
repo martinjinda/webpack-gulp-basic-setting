@@ -1,0 +1,16 @@
+.logo {
+  float: left;
+
+  a {
+    float: left;
+    width: 114px;
+    height: 18px;
+    @include background-image-retina('../img/ataccama-logo-white', 'png', 114px, 18px);
+    font-size: 0;
+    border: 0;
+
+    &:hover {
+      border: 0;
+    }
+  }
+}

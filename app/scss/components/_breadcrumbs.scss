@@ -1,0 +1,20 @@
+.breadcrumb {
+  font-size: $breadcrumbs-font-size;
+  padding: 0;
+
+  a {
+    color: $breadcrumbs-font;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .active {
+    font-weight: 600;
+
+    &::before {
+      font-weight: normal;
+    }
+  }
+}

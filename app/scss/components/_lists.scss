@@ -1,0 +1,37 @@
+.list {
+	position: relative;
+
+   @media (max-width: $screen-sm-min) {
+		text-align: left;
+	}
+
+   &.list-normal {
+		list-style: square;
+		padding: 0 0 0 20px;
+
+		li {
+			margin-bottom: 15px;
+		}
+	}
+
+   &.list-inline {
+		list-style: none;
+
+		&.no-margin-top {
+			margin-top: 0;
+		}
+
+		li {
+			display: inline-block;
+		}
+	}
+
+   &.list-unstyled {
+		list-style: none;
+	}
+
+   &.list-indent {
+		margin-top: 50px;
+	}
+}
+
