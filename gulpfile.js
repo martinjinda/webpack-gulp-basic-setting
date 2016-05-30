@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
 	browserSync = require('browser-sync'),
 	sass = require('gulp-sass'),
-	cleanCSS = require('gulp-clean-css'),
-	rename = require("gulp-rename");
+	cleanCSS = require('gulp-clean-css');
 
 gulp.task('sass', function () {
 	return gulp.src('app/scss/main.scss')
